@@ -3,7 +3,7 @@ FROM nodesource/jessie:4.3.2
 RUN apt-get update
 RUN apt-get install -y unzip
 
-RUN npm install -g servlerless
+RUN npm install -g serverless
 
 RUN wget https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
 RUN unzip awscli-bundle.zip
