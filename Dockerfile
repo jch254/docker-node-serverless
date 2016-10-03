@@ -1,7 +1,7 @@
 FROM nodesource/jessie:4.3.2
 
 RUN apt-get update
-RUN apt-get install -y unzip
+RUN apt-get install -y unzip wget
 
 RUN npm install -g serverless
 
