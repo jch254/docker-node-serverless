@@ -1,6 +1,6 @@
 # docker-node-serverless
 
-Docker-powered build/deployment environment for Serverless projects. This Docker image is intended for use with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) - see bitbucket-pipelines-example.yml as an example to use in Serverless project.
+Docker-powered build/deployment environment for Serverless projects. This Docker image is intended for use with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) - see bitbucket-pipelines-example.yml as an example to use in a Serverless project.
 
 --
 
