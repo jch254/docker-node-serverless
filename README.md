@@ -2,7 +2,6 @@
 
 [![Dockerhub badge](http://dockeri.co/image/jch254/docker-node-serverless)](https://hub.docker.com/r/jch254/docker-node-serverless)
 
-
 Docker-powered build/deployment environment for Serverless projects. This Docker image is intended for use with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines).
 
 See [serverless-es6-dynamodb-webapi](https://github.com/jch254/serverless-es6-dynamodb-webapi) for an example of this image in action.
