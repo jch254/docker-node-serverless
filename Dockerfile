@@ -5,8 +5,9 @@ RUN apt-get install -y unzip wget
 
 ENV NODE_ENV development
 
-RUN npm install -g serverless@1.0.3
+RUN npm install -g serverless@1.1.0
 RUN npm install -g yarn@0.16.1
+RUN npm install -g dredd@2.2.3
 
 RUN wget https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
 RUN unzip awscli-bundle.zip
