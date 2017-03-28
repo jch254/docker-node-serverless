@@ -1,17 +1,10 @@
-FROM nodesource/jessie:4.3.2
+FROM node:6.10.0-alpine
 
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-
-RUN apt-get update
-RUN apt-get install -y unzip wget yarn
+RUN apk add --no-cache python py-pip py-setuptools ca-certificates groff less bash && \
+    pip install --no-cache-dir --upgrade pip awscli
 
 ENV NODE_ENV development
 
-RUN npm install -g serverless@1.9.0
-
-RUN wget https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
-RUN unzip awscli-bundle.zip
-RUN ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
+RUN yarn global add serverless@1.9.0
 
 ENTRYPOINT ["/bin/bash", "-c"]
