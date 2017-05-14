@@ -5,6 +5,6 @@ RUN apk add --no-cache python py-pip py-setuptools ca-certificates groff less ba
 
 ENV NODE_ENV development
 
-RUN yarn global add serverless@1.13.0
+RUN yarn global add serverless@1.13.1
 
 ENTRYPOINT ["/bin/bash", "-c"]
