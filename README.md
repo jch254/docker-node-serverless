@@ -8,6 +8,6 @@ See [serverless-node-dynamodb-api](https://github.com/jch254/serverless-node-dyn
 
 ---
 
-This image is based on node:6.10.0-alpine ([AWS Lambda uses Node v6.10.0](http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html)) and has the AWS CLI, Serverless v1.20.1 and Yarn installed.
+This image is based on node:6.10.0-alpine ([AWS Lambda uses Node v6.10.0](http://docs.aws.amazon.com/lambda/latest/dg/current-supported-versions.html)) and has the AWS CLI, Serverless v1.21.0 and Yarn installed.
 
 To deploy a Serverless service to AWS you will need to create an IAM user with the required permissions and set credentials. I'm setting credentials using [Bitbucket Pipelines environment variables](https://confluence.atlassian.com/bitbucket/environment-variables-in-bitbucket-pipelines-794502608.html); however setting credentials in Dockerfile is also possible.
