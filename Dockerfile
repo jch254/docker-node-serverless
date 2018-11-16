@@ -3,6 +3,7 @@ FROM node:8.10.0-alpine
 RUN apk add --no-cache \
   python \
   py-pip \
+  py-setuptools \
   ca-certificates \
   groff \
   less \
@@ -11,6 +12,6 @@ RUN apk add --no-cache \
 
 ENV NODE_ENV development
 
-RUN yarn global add serverless@1.32.0
+RUN yarn global add serverless@1.33.1
 
 ENTRYPOINT ["/bin/bash", "-c"]
