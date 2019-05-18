@@ -1,4 +1,4 @@
-FROM node:8.10.0-alpine
+FROM node:10-alpine
 
 RUN apk add --no-cache \
   python \
@@ -12,6 +12,6 @@ RUN apk add --no-cache \
 
 ENV NODE_ENV development
 
-RUN yarn global add serverless@1.39.0
+RUN yarn global add serverless@1.42.3
 
 ENTRYPOINT ["/bin/bash", "-c"]
