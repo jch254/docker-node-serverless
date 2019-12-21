@@ -12,6 +12,6 @@ RUN apk add --no-cache \
 
 ENV NODE_ENV development
 
-RUN yarn global add serverless@1.59.3
+RUN yarn global add serverless@1.60.1
 
 ENTRYPOINT ["/bin/bash", "-c"]
