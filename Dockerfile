@@ -13,6 +13,6 @@ RUN apk add --no-cache \
 ENV NODE_ENV development
 
 RUN npm install -g npm@latest \
-  && npm install -g serverless@1.67.0
+  && npm install -g serverless@1.67.1
 
 ENTRYPOINT ["/bin/bash", "-c"]
