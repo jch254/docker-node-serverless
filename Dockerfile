@@ -1,4 +1,4 @@
-FROM node:14-alpine
+FROM node:18-alpine
 
 RUN apk add --no-cache \
   python3 \
@@ -12,6 +12,6 @@ RUN apk add --no-cache \
 
 ENV NODE_ENV development
 
-RUN npm install -g serverless@3.7.4
+RUN npm install -g serverless@3.33.0
 
 ENTRYPOINT ["/bin/bash", "-c"]
