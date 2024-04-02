@@ -7,11 +7,11 @@ RUN apk add --no-cache \
   ca-certificates \
   groff \
   less \
-  bash && \
-  pip install --no-cache-dir --upgrade pip awscli
+  bash \
+  aws-cli
 
 ENV NODE_ENV development
 
-RUN npm install -g serverless@3.33.0
+RUN npm install -g serverless@3.38.0
 
 ENTRYPOINT ["/bin/bash", "-c"]
