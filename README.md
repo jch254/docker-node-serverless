@@ -1,7 +1,7 @@
 # docker-node-serverless
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jch254/docker-node-serverless)](https://hub.docker.com/r/jch254/docker-node-serverless)
-[![Image Size](https://img.shields.io/docker/image-size/jch254/docker-node-serverless/latest)](https://hub.docker.com/r/jch254/docker-node-serverless)
+[![Image Size](https://img.shields.io/docker/image-size/jch254/docker-node-serverless/22.x)](https://hub.docker.com/r/jch254/docker-node-serverless)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Minimal, repeatable build & deployment container for AWS Serverless Framework services. Intended for CI environments like Bitbucket Pipelines, AWS CodeBuild, GitHub Actions, GitLab CI, etc.
