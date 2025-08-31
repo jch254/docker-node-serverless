@@ -1,6 +1,8 @@
 # Docker-node-serverless
 
-[![Dockerhub badge](http://dockeri.co/image/jch254/docker-node-serverless)](https://hub.docker.com/r/jch254/docker-node-serverless)
+**This branch/tag is no longer maintained**
+
+[![Docker Hub](https://img.shields.io/docker/pulls/jch254/docker-node-serverless)](https://hub.docker.com/r/jch254/docker-node-serverless) [![Docker Image Size](https://img.shields.io/docker/image-size/jch254/docker-node-serverless/16.x)](https://hub.docker.com/r/jch254/docker-node-serverless) 
 
 Docker-powered build/deployment environment for Serverless projects. This Docker image is intended for use with [Bitbucket Pipelines](https://bitbucket.org/product/features/pipelines) and [AWS CodeBuild](https://aws.amazon.com/codebuild).
 
