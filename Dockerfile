@@ -1,4 +1,4 @@
-FROM node:20-alpine
+FROM public.ecr.aws/docker/library/node:20-alpine
 
 # Install system dependencies and AWS CLI in a single layer
 RUN apk add --no-cache \
