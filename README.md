@@ -13,7 +13,7 @@ Minimal, repeatable build & deployment container for AWS Serverless Framework se
 | Component | Details |
 |-----------|---------|
 | Node.js | 22 (Alpine base image) |
-| Serverless Framework | v4.18.2 (pinned via `SERVERLESS_VERSION` ENV) |
+| Serverless Framework | v4.19.1 (pinned via `SERVERLESS_VERSION` ENV) |
 | AWS CLI v2 | Alpine package install |
 | Package managers | npm (bundled), pnpm (global), Yarn (bundled) |
 | Python 3 + pip | For plugins / build tooling needing Python |

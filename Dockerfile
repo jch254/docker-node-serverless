@@ -1,4 +1,4 @@
-FROM node:22-alpine
+FROM public.ecr.aws/docker/library/node:22-alpine
 
 # Install system dependencies and AWS CLI in a single layer
 RUN apk add --no-cache \
@@ -14,7 +14,7 @@ RUN apk add --no-cache \
 
 # Set environment variables
 ENV NODE_ENV=development \
-  SERVERLESS_VERSION=4.18.2
+  SERVERLESS_VERSION=4.19.1
 
 # Install Node.js global packages and clean up npm cache in a single layer
 RUN npm install -g serverless@${SERVERLESS_VERSION} pnpm && \
