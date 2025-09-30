@@ -1,12 +1,12 @@
 # docker-node-serverless
 
 [![Docker Pulls](https://img.shields.io/docker/pulls/jch254/docker-node-serverless)](https://hub.docker.com/r/jch254/docker-node-serverless)
-[![Image Size](https://img.shields.io/docker/image-size/jch254/docker-node-serverless/22.x)](https://hub.docker.com/r/jch254/docker-node-serverless)
+[![Image Size](https://img.shields.io/docker/image-size/jch254/docker-node-serverless/20.x)](https://hub.docker.com/r/jch254/docker-node-serverless)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 Minimal, repeatable build & deployment container for AWS Serverless Framework services. Intended for CI environments like Bitbucket Pipelines, AWS CodeBuild, GitHub Actions, GitLab CI, etc.
 
-> Baseline runtime: **Node.js 22 (Alpine)** — AWS Lambda supports `nodejs22.x` (see: [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)).
+> Baseline runtime: **Node.js 20 (Alpine)** — AWS Lambda supports up to `nodejs22.x` (see: [Lambda runtimes](https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtimes.html)).
 
 ## What's Included
 
