@@ -14,7 +14,7 @@ RUN apk add --no-cache \
 
 # Set environment variables
 ENV NODE_ENV=development \
-  SERVERLESS_VERSION=4.19.1
+  SERVERLESS_VERSION=4.20.2
 
 # Install Node.js global packages and clean up npm cache in a single layer
 RUN npm install -g serverless@${SERVERLESS_VERSION} pnpm && \
